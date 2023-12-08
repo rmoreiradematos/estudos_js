@@ -1,0 +1,4 @@
+modulo1/*/node_modules
+modulo1/*/.nyc_output
+modulo1/*/coverage
+modulo2/*/node_modules

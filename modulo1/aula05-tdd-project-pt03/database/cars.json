@@ -1,0 +1,23 @@
+[
+  {
+    "id": "d200af44-c17f-4a10-9365-4f94ce2d7068",
+    "name": "CTS",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "fee9148c-a91a-43ac-a5dc-714e3e98a74f",
+    "name": "Civic",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "20cf3ddd-e07a-478e-9daf-96648b975de9",
+    "name": "Mercielago",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]

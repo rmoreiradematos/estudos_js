@@ -18,3 +18,21 @@ item.counter++
 deepStrictEqual(item, { counter: 1 })
 item2.counter++
 deepStrictEqual(item2, { counter: 2 })
+
+
+var alex = {
+  name: 'Alex',
+  age: 30
+};
+function changeAgePure(person) {
+  var newPersonObj = Object.create(person)
+  newPersonObj.age = 25;
+  return newPersonObj;
+}
+
+var alexChanged = changeAgePure(alex);
+// alex.age = 25
+// alexChanged.age = 30
+console.log(alexChanged.age);
+console.log(alex.age);
+

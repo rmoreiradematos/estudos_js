@@ -2,3 +2,7 @@ modulo1/*/node_modules
 modulo1/*/.nyc_output
 modulo1/*/coverage
 modulo2/*/node_modules
+modulo3/*/node_modules
+modulo3/*/.nyc_output
+modulo3/*/coverage
+modulo3/*/.reify-cache

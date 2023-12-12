@@ -1,0 +1,35 @@
+regex101com
+\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-23
+321.321.321-33
+414.142.166-22
+
+
+replace [.-] - vazio
+
+{firstName: "Rodrigo", lastName: "Matos"}
+{firstName: "Laila", lastName: "Gomes"}
+{firstName: "Giovanna", lastName: "Bernadino"}
+
+\w+ letra até que n tenha mais letra. (número ou caracter especial)
+\w+, (até  a virgula) \s(contando espaços em branco)\w+(mesma condição acima)
+^(\w+),\s(\w+)$ - ^ = começa, $ = finaliza
+{firstName: "$2", lastName: "$1"}
+
+\[(.*?)\]\(([http|https].*?)\)
+
+O [Rodrigo Matos](https://rodrigo-matos.com.br) desenvolve sistemas e você devia o seguir no [Twitter](https://twitter.com/rodrigo) ou até no [Instagram](https://instagram.com/rodrigo)
+
+Ah e você pode pesquisar também no [Google](https://google.com.br?q=rodrigomatos) ou
+[Yahoo](https://yahoo.com.br/rodrigo)
+
+vai que vai!
+
+
+\[(.*?)\] - \[\] expressão literal (pega tudo que estiver entre brackets), (.*?) mas pare divída-os em grupos de abre [ e fecha ].
+
+\(([http|https].*?)\) pegue tudo o que está entre parênteses e que está escrito http ou https \(([http|https]) e pare no primeiro que vir .*?)\)
+
+
+

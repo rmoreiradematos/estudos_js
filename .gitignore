@@ -6,3 +6,6 @@ modulo3/*/node_modules
 modulo3/*/.nyc_output
 modulo3/*/coverage
 modulo3/*/.reify-cache
+modulo5/*/*/node_modules
+modulo5/*/*/.nyc_output
+modulo5/*/*/coverage

@@ -9,3 +9,5 @@ modulo3/*/.reify-cache
 modulo5/*/*/node_modules
 modulo5/*/*/.nyc_output
 modulo5/*/*/coverage
+modulo6/*/*/node_modules
+

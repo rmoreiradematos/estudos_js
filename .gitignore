@@ -12,5 +12,6 @@ modulo5/*/*/coverage
 modulo6/*/*/node_modules
 modulo7/*/*/node_modules
 modulo7/*/*/coverage
-
+modulo8/*/*/node_modules
+modulo8/*/fluentsql-jest-tdd-yt
 
